@@ -1,0 +1,23 @@
+{
+    "name": "zephyr-dark-theme",
+    "displayName": "zephyr-dark-theme",
+    "description": "Zephyr Dark - custom color theme for VS Code.",
+    "version": "1.0.0",
+    "publisher": "jake-daniels",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zephyr Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zephyr-dark-color-theme.json"
+            }
+        ]
+    }
+}
